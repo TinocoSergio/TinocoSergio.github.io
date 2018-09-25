@@ -5,7 +5,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
 	if(mySrc === 'imagens/firefox-icon.png') {
-      myImage.setAttribute ('src','imagens/firefox2.png');
+      myImage.setAttribute ('src','imagens/firefox-icon2.png');
 	} else {
 	  myImage.setAttribute ('src','imagens/firefox-icon.png');
 	}
